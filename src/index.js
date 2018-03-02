@@ -4,6 +4,7 @@ import Material from './components/Material.vue'
 import Slider from './components/Slider.vue'
 import Swatches from './components/Swatches.vue'
 import Photoshop from './components/Photoshop.vue'
+import Ply from './components/Ply.vue'
 import Sketch from './components/Sketch.vue'
 import Chrome from './components/Chrome.vue'
 import Alpha from './components/common/Alpha.vue'
@@ -21,6 +22,7 @@ const VueColor = {
   Slider,
   Swatches,
   Photoshop,
+  Ply,
   Sketch,
   Chrome,
   Alpha,
