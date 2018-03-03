@@ -148,8 +148,11 @@ export default {
   overflow: hidden;
   margin: 5px 0;
 }
-.vc-ply-saturation-wrap, .vc-saturation, .vc-ply-saturation-wrap .vc-saturation > *{
+.vc-ply-saturation-wrap, .vc-ply-saturation-wrap .vc-saturation > *{
   border-radius: 2px;
+}
+.vc-saturation {
+  border-radius: 5px;
 }
 .vc-ply-controls {
   display: flex;
@@ -161,10 +164,10 @@ export default {
 .vc-ply-sliders .vc-alpha-gradient {
   border-radius: 2px;
 }
-.vc-alpha-picker {
+.vc-ply .vc-saturation .vc-alpha-picker {
   height: 18px;
 }
-.vc-hue-picker {
+.vc-ply .vc-saturation .vc-hue-picker {
   height: 18px;
 }
 .vc-ply-hue-wrap {
