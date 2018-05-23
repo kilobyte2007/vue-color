@@ -46,6 +46,7 @@ export default {
     handleChange (newVal) {
       let data = {}
       data[this.label] = newVal
+      console.log(data)
       if (data.hex === undefined && data['#'] === undefined) {
         this.$emit('change', data)
       } else if (newVal.length > 5) {

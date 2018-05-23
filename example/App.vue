@@ -52,7 +52,9 @@
           <h6>Swatches</h6>
         </div>
       </div>
-
+      <div class="demo-item">
+        <ply-picker v-model="colors" @ok="onOk" @cancel="onCancel"></ply-picker>
+      </div>
 
     </div>
   </div>
@@ -67,6 +69,7 @@ import slider from '../src/components/Slider.vue'
 import sketch from '../src/components/Sketch.vue'
 import chrome from '../src/components/Chrome.vue'
 import photoshop from '../src/components/Photoshop.vue'
+import ply from '../src/components/Ply.vue'
 
 let defaultProps = {
   hex: '#194d33',
@@ -100,7 +103,8 @@ export default {
     'slider-picker': slider,
     'sketch-picker': sketch,
     'chrome-picker': chrome,
-    'photoshop-picker': photoshop
+    'photoshop-picker': photoshop,
+    'ply-picker': ply
   },
   data () {
     return {

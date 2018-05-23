@@ -30,7 +30,7 @@
     <div class="vc-ply-field" v-if="!disableFields">
       <!-- rgba -->
       <div class="vc-ply-field--double">
-        <ed-in :value="hex" @change="inputChange"></ed-in>
+        <ed-in :value="hex" label="hex" @change="inputChange"></ed-in>
       </div>
     </div>
     <div class="vc-ply-field" v-if="!disableFields && !disableAlpha">
@@ -167,12 +167,12 @@ export default {
 .vc-ply .vc-saturation .vc-alpha-picker {
   height: 18px;
 }
-.vc-ply .vc-saturation .vc-hue-picker {
+.vc-ply .vc-hue-picker {
   height: 18px;
 }
 .vc-ply-hue-wrap {
   position: relative;
-  height: 20px;
+  height: 20px;                             
   margin: 5px 0;
 }
 .vc-ply-alpha-wrap {
